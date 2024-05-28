@@ -8,17 +8,21 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Menai\\.nuget\\packages\\": {}
+    "C:\\Users\\Menai\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Menai\\source\\repos\\MenaidWebApplication\\JensensWebApp\\JensensWebApp.csproj",
+      "projectUniqueName": "C:\\Users\\Menai\\source\\repos\\JensenWebApplication\\JensensWebApp\\JensensWebApp.csproj",
       "projectName": "JensensWebApp",
-      "projectPath": "C:\\Users\\Menai\\source\\repos\\MenaidWebApplication\\JensensWebApp\\JensensWebApp.csproj",
+      "projectPath": "C:\\Users\\Menai\\source\\repos\\JensenWebApplication\\JensensWebApp\\JensensWebApp.csproj",
       "packagesPath": "C:\\Users\\Menai\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Menai\\source\\repos\\MenaidWebApplication\\JensensWebApp\\obj\\",
+      "outputPath": "C:\\Users\\Menai\\source\\repos\\JensenWebApplication\\JensensWebApp\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
         "C:\\Users\\Menai\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
@@ -42,6 +46,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -58,24 +67,6 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[6.0.30, 6.0.30]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Host.win-x64",
-            "version": "[6.0.30, 6.0.30]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Ref",
-            "version": "[6.0.30, 6.0.30]"
-          },
-          {
-            "name": "Microsoft.WindowsDesktop.App.Ref",
-            "version": "[6.0.30, 6.0.30]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"

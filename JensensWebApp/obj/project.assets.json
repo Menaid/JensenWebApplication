@@ -8,24 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Menai\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\Menaid\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Menai\\source\\repos\\JensenWebApplication\\JensensWebApp\\JensensWebApp.csproj",
+      "projectUniqueName": "D:\\source\\JensenWebApplication\\JensensWebApp\\JensensWebApp.csproj",
       "projectName": "JensensWebApp",
-      "projectPath": "C:\\Users\\Menai\\source\\repos\\JensenWebApplication\\JensensWebApp\\JensensWebApp.csproj",
-      "packagesPath": "C:\\Users\\Menai\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Menai\\source\\repos\\JensenWebApplication\\JensensWebApp\\obj\\",
+      "projectPath": "D:\\source\\JensenWebApplication\\JensensWebApp\\JensensWebApp.csproj",
+      "packagesPath": "C:\\Users\\Menaid\\.nuget\\packages\\",
+      "outputPath": "D:\\source\\JensenWebApplication\\JensensWebApp\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Menai\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\Menaid\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

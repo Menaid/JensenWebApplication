@@ -1,86 +1,139 @@
-﻿/*Övning 1: Style the table using the CSS Box Model
-Create an external CSS file to style the table from the previous HTML exercise. Use the CSS
-Box Model properties such as padding, margin, and border to create a visually appealing
-table. Add padding and margin between table cells, and give the table a border.
+﻿
 
-Exercise 2: Style the image gallery using the CSS Box Model
-Create an external CSS file to style the image gallery from the previous HTML exercise. Use
-the CSS Box Model properties such as padding, margin, and border to create a visually
-appealing image gallery. Add padding and margin between images, and give the images a
-border.
-
-Exercise 3: Style a form using the CSS Box Model
-create an external CSS file to style a form. Use the CSS Box Model properties to create a
-visually appealing form. Add padding and margin to form elements, and give form elements
-a border
-*/
-
-/*Övning 1: Style article elements with different properties
-Create an external CSS file to style the article elements from the previous HTML exercise.
-Style the heading with a larger font size and a different color. Style the author and
-publication date elements with a different font color and a background color. Also, add a
-border and some padding to the article element.
-You can use the code from the HTML exercise 1 (HTML Elements - Övning 1)
-
-Övning 2: Advanced styling for image gallery
-create an external CSS file to style the image gallery from the previous HTML exercise. Style
-the images with rounded corners, a box-shadow, and a hover effect that adds a rotation,
-scales the images, and changes the box-shadow color.
-
-Övning 3: Advanced styling for the table
-Create an external CSS file to style the table from the previous HTML exercise. Style the table
-headers with a different background color, font color, and borders. Style the table data cells
-with the same amount of padding as the table headers and give them borders. Add a hover
-effect to the table rows that changes the background color and the text color of the table
-data cells. Lastly, add a border to the table*/
-
-/*Övning 1: Style article elements using element selectors
-Create an external CSS file to style the article elements from the previous HTML exercise.
-Style the heading with a new font size and color, and apply a different color and line height
-to the paragraphs.
-
-Övning 2: Style image gallery using class selectors
-Create an external CSS file to style the image gallery from the previous HTML exercise. Add a
-class to each image, and style the images with a border, margin, and a hover effect that
-changes the border color.
-
-Övning 3: Style table using ID selectors
-Create an external CSS file to style the table from the previous HTML exercise. Add an ID to
-the table, and style the table with borders, padding, and alternate row colors*/
-
-
+.table-wrapper {
+    border: solid 5px orange;
+    border-radius: 20px;
+    margin: 10px;
+}
 
 #family-table {
-    border-collapse: collapse; /* Remove default table border spacing */
-    width: 100%; /* Make the table fill the available width */
-    margin: 20px auto; /* Add margin for spacing */
-    border: 1px solid #ddd; /* Add a thin border */
+    width: 80%;
+    margin: 50px auto;
+    text-align: center;
+    border: dotted 3px navy;
+    border-radius: 20px;
 }
 
-th, td {
-    padding: 10px; /* Add padding for cell content spacing */
-    border: 1px solid #ddd; /* Add border to each cell */
-    text-align: left; /* Align content to the left */
+
+.photoRam img.thumbnail {
+    border-radius: 10px;
+    border: 3px solid #090;
+    margin: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.9);
+    transition: all 0.3s ease-in-out;
 }
 
-th {
-    backgound-color: #f2f2f2; /* Add a light background color for header */
-    font-weight: bold; /* Make header text bold */
+.photoRam img.thumbnail:hover {
+    transform: scale(1.1) rotate(15deg);
+    border-color: turquoise;
+    box-shadow: 5px 3px 8px 16px rgba(0, 100, 200, 0.9);
 }
+
+.thumbnail {
+    width: 70%;
+    height: auto;
+}
+
+
+#family-table td {
+    width: 33.33%;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.9);
+}
+
 
 #excersise-table {
-    border-collapse: collapse; /* Remove default table border spacing */
-    width: 100%; /* Make the table fill the available width */
-    margin: 20px auto; /* Add margin for spacing */
-    border: 1px solid #ddd; /* Add a thin border */
+    border-collapse: collapse;
+    width: 80%;
+    margin: 20px auto;
+    border: 3px solid #ddd;
 }
 
-    #table-header {
+    #excersise-table th {
         background-color: cornflowerblue;
+        color: burlywood;
+        border: 3px solid #ddd;
+        font-family: cursive;
+        padding: 20px;
+        font-size: medium;
     }
 
-#excersise-table > tbody {
-    background-color: red !important;
+    #excersise-table td {
+        background-color: red;
+        color: white;
+        padding: 20px;
+        border: 2px solid #006400;
+        font-family: sans-serif;
+    }
+
+    #excersise-table tr:hover td {
+        background-color: #333;
+        color: #00ff7f;
+    }
+
+
+article {
+    border: double;
+    border-color: orange;
+    padding: 20px;
+    display: inline-block;
 }
 
-    
+article {
+    border: double;
+    border-color: orange;
+    padding: 20px;
+    display: inline-block;
+}
+
+.inArticle {
+    font-family: monospace;
+    font-size: x-large;
+    line-height: 1.6;
+    color: blueviolet;
+    margin-bottom: 10px;
+}
+
+#articleHeading {
+    font-size: 32px;
+    margin-bottom: 10px;
+    color: #00ff7f;
+}
+
+#author {
+    background-color: yellow;
+    display: inline-block;
+    color: violet;
+}
+
+#pubDate {
+    font-family: revert;
+    font-palette: dark;
+    font-size: unset;
+    color: #00bfff;
+    border: solid;
+    width: fit-content;
+    background-color: black;
+}
+
+.form1 {
+    padding: 50px;
+    display: inline-block;
+    border: dotted;
+    border-color: magenta;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    box-sizing: border-box;
+    justify-content: center;
+    align-content: center;
+}
+
+
+.form-group {
+    font-family: cursive;
+}
+
+input {
+    margin: 5px;
+    padding: 5px;
+    border-radius: 10px;
+}

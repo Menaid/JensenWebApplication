@@ -12,53 +12,72 @@ quantity. Use appropriate elements and attributes for the table-->
 <!DOCTYPE html>
 <html>
 <head>
-    <link rel="stylesheet" href="C:\Users\Menai\source\repos\JensenWebApplication\JensensWebApp\CSS-Excersise\style.css" />
-    <title><h2>Library</h2></title>
+  <link rel="stylesheet" href="../CSS-Excersise/style.css" />
+  <title><h2>Library</h2></title>
 </head>
 <body>
 <article>
-    <h5>Author:</h5>
-    <p>John Doe</p>
-    <h5>Publication date:</h5>
-    <time>1988-01-24</time>
-    <p>Available in the Asian market</p>
-    <p>And the European market</p>
+    <h5 id="articleHeading">Author:</h5>
+    <p id="author">John Doe</p>
+    <div id="pubDate">
+        <h5>Publication date:</h5>
+        <time>1988-01-24</time>
+    </div>
+    <p class="inArticle">Available in the Asian market</p>
+    <p class="inArticle">And the European market</p>
 </article>
-<table border="5" id="family-table">
-    <tr class="tr-border">
-        <td style="padding: 10px; text-align: center">
-            <a href="C:\Users\Menai\source\repos\JensenWebApplication\JensensWebApp\HTML-elements-excersis\Amila-chillar.jpg" target="_blank">Amila chillar <br /> <img src="C:\Users\Menai\source\repos\JensenWebApplication\JensensWebApp\HTML-elements-excersis\Amila-chillar.jpg" width="25%" height="auto"  /></a>
-        </td>
-        <td style="padding: 10px; text-align: center">
-            <a href="C:\Users\Menai\source\repos\JensenWebApplication\JensensWebApp\HTML-elements-excersis\Ayla-pa-nyvangsberget.jpg" target="_blank">Ayla på Nyvångsberget <br /> <img src="C:\Users\Menai\source\repos\JensenWebApplication\JensensWebApp\HTML-elements-excersis\Ayla-pa-nyvangsberget.jpg" width="25%" height="auto"/></a>
-        </td>
-        <td style="padding: 10px; text-align: center">
-            <a href="C:\Users\Menai\source\repos\JensenWebApplication\JensensWebApp\HTML-elements-excersis\Ayla-ater-glass-med-pappa.jpg" target="_blank">Ayla äter glass med pappa <br /> <img src="C:\Users\Menai\source\repos\JensenWebApplication\JensensWebApp\HTML-elements-excersis\Ayla-ater-glass-med-pappa.jpg" width="25%" height="auto"/></a>
-        </td>
-    </tr>
-</table>
-
-<table border="3" id="excersise-table">
+<div class="table-wrapper">
+    <table id="family-table">
+        <tbody class="photoRam">
+            <tr>
+                <td style="padding: 10px; text-align: center">
+                    <a href="./Amila-chillar.jpg" target="_blank">Amila chillar <br /> <img src="./Amila-chillar.jpg" class="thumbnail" /></a>
+                </td>
+                <td style="padding: 10px; text-align: center">
+                    <a href="./Ayla-pa-nyvangsberget.jpg" target="_blank">Ayla på Nyvångsberget <br /> <img src="./Ayla-pa-nyvangsberget.jpg" class="thumbnail" /></a>
+                </td>
+                <td style="padding: 10px; text-align: center">
+                    <a href="./Ayla-ater-glass-med-pappa.jpg" target="_blank">Ayla äter glass med pappa <br /> <img src="./Ayla-ater-glass-med-pappa.jpg" class="thumbnail" /></a>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+<table id="excersise-table">
     <tr id="table-header">
         <th><b><i>Product Name</i></b></th>
         <th><b><i>Price</i></b></th>
         <th><b><i>Quantity</i></b></th>
     </tr>
     <tr>
-        <td>Grill Korv</td>
-        <td>35kr</td>
-        <td>15st</td>
+        <td id="products">Grill Korv</td>
+        <td id="products">35kr</td>
+        <td id="products">15st</td>
     </tr>
     <tr>
-        <td>Annanas</td>
-        <td>65kr</td>
-        <td>20st</td>
+        <td id="products">Annanas</td>
+        <td id="products">65kr</td>
+        <td id="products">20st</td>
     </tr>
     <tr>
-        <td>Oxfile</td>
-        <td>399kr</td>
-        <td>10kg</td>
+        <td id="products">Oxfile</td>
+        <td id="products">399kr</td>
+        <td id="products">10kg</td>
     </tr>
 </table>
+<form class="form1">
+    <h1 id="h1title">Välkommen till vårt formulär</h1>
+    <div class="form-group">
+        <label for="name"><i><b>Vänligen ange ditt namn i rutan</b></i></label>
+        <input type="text" id="name" name="name" placeholder="Your name" />
+        <br />
+        <label for="email"><i><b>Vänligen ange din epost</b></i></label>
+        <input type="email" id="email" name="email" placeholder="youremail@something.something" />
+        <br />
+        <label for="password"><i><b>Vänligen ange ett lösenord</b></i></label>
+        <input type="password" id="password" name="password" placeholder="password" />
+    </div>
+    <button type="submit">Confirm</button>
+</form>
 </body>
 </html>

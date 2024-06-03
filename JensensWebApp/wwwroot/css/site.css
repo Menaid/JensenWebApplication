@@ -16,3 +16,10 @@ html {
 body {
   margin-bottom: 60px;
 }
+
+.card {
+  background-color: #6879e1;
+  border-radius: 20%;
+  box-shadow: 0 10px 2px rgba(0, 0, 0, 0.1);
+  font-size: 10px;
+}

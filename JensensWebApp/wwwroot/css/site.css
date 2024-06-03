@@ -18,8 +18,29 @@ body {
 }
 
 .card {
-  background-color: #6879e1;
+  background-image: url('background.jpeg');
+  background-size: cover;
+  background-position: center;
   border-radius: 20%;
   box-shadow: 0 10px 2px rgba(0, 0, 0, 0.1);
   font-size: 10px;
+}
+
+.card-title {
+  display: flex;
+  justify-content: center;
+  font-style: italic;
+  transition: all 0.3s ease-in-out;
+}
+.card-title:hover {
+  transform: scale(1.03);
+  color: rgb(34, 18, 255);
+}
+
+.card-text {
+  font-style: italic;
+}
+
+.card-link {
+  font-style: italic;
 }

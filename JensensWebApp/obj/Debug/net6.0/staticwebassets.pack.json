@@ -5,6 +5,14 @@
       "PackagePath": "staticwebassets\\JensensWebApp.bundle.scp.css"
     },
     {
+      "Id": "D:\\source\\JensenWebApplication\\JensensWebApp\\wwwroot\\css\\Borat.jpg",
+      "PackagePath": "staticwebassets\\css\\Borat.jpg"
+    },
+    {
+      "Id": "D:\\source\\JensenWebApplication\\JensensWebApp\\wwwroot\\css\\background.png",
+      "PackagePath": "staticwebassets\\css\\background.png"
+    },
+    {
       "Id": "D:\\source\\JensenWebApplication\\JensensWebApp\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },

@@ -17,26 +17,30 @@
 
 }
 
-<h1>Articles</h1>
+<h1 style="font-weight: bold;">Articles</h1>
 
 <div class="container">
     @using (Html.BeginForm("Index", "Home", FormMethod.Get))
     {
-        <label for="topic">Select a topic:</label>
-        <select id="topic" name="topic" class="form-select">
-            <option value="">All</option>
-            @foreach (var topic in topicDisplayNames)
-            {
-                <option value="@topic.Key">@topic.Value</option>
-            }
-        </select>
+        <div style="display: inline-block;">
+            <label for="topic">Select a topic:</label>
+            <select id="topic" name="topic" class="form-select" style="width: auto;">
+                <option value="">All</option>
+                @foreach (var topic in topicDisplayNames)
+                {
+                    <option value="@topic.Key">@topic.Value</option>
+                }
+            </select>
+        </div>
 
-        <label for="sortBy">Sort by:</label>
-        <select id="sortBy" name="sortBy" class="form-select">
-            <option value="">Default</option>
-            <option value="newest">Newest to Oldest</option>
-            <option value="oldest">Oldest to Newest</option>
-        </select>
+        <div style="display: inline-block;">
+            <label for="sortBy">Sort by:</label>
+            <select id="sortBy" name="sortBy" class="form-select" style="width: auto;">
+                <option value="">Default</option>
+                <option value="newest">Newest to Oldest</option>
+                <option value="oldest">Oldest to Newest</option>
+            </select>
+        </div>
 
         <button type="submit" class="btn btn-primary">Filter</button>
     }

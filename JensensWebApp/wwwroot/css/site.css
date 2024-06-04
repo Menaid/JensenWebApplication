@@ -14,10 +14,23 @@ html {
 }
 
 body {
-    margin-bottom: 40px;
+    margin-bottom: 60px;
     background-color: #2C2C2C;
     font-family: 'Helvetica Neue', Arial, sans-serif;
     padding-bottom: 40px;
+}
+
+.navbar {
+    height: 50px;
+}
+
+.navbar-content {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
 }
 
 .container {
@@ -29,7 +42,7 @@ body {
     margin-bottom: 30px;
 }
 
-footer {
+footer {  
     background-color: #3E4E50;
     color: #ffffff;
     border-radius: 0 0 15px 15px;
@@ -69,4 +82,33 @@ footer a {
 .text-muted {
     --bs-text-opacity: 1;
     color: #ffffff !important;
+}
+
+.card {
+    background-image: url('background.jpeg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 20%;
+    box-shadow: 0 10px 2px rgba(0, 0, 0, 0.1);
+    font-size: 10px;
+}
+
+.card-title {
+    display: flex;
+    justify-content: center;
+    font-style: italic;
+    transition: all 0.3s ease-in-out;
+}
+
+.card-title:hover {
+    transform: scale(1.03);
+    color: rgb(34, 18, 255);
+}
+
+.card-text {
+    font-style: italic;
+}
+
+.card-link {
+    font-style: italic;
 }

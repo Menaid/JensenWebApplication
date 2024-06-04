@@ -8,19 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Menaid\\.nuget\\packages\\": {}
+    "C:\\Users\\arvid\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\source\\JensenWebApplication\\JensensWebApp\\JensensWebApp.csproj",
+      "projectUniqueName": "C:\\Users\\arvid\\source\\repos\\JensenWebApplication\\JensensWebApp\\JensensWebApp.csproj",
       "projectName": "JensensWebApp",
-      "projectPath": "D:\\source\\JensenWebApplication\\JensensWebApp\\JensensWebApp.csproj",
-      "packagesPath": "C:\\Users\\Menaid\\.nuget\\packages\\",
-      "outputPath": "D:\\source\\JensenWebApplication\\JensensWebApp\\obj\\",
+      "projectPath": "C:\\Users\\arvid\\source\\repos\\JensenWebApplication\\JensensWebApp\\JensensWebApp.csproj",
+      "packagesPath": "C:\\Users\\arvid\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\arvid\\source\\repos\\JensenWebApplication\\JensensWebApp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Menaid\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\arvid\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -28,7 +28,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -41,11 +40,6 @@
         "warnAsError": [
           "NU1605"
         ]
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "true",
-        "auditLevel": "low",
-        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -70,7 +64,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

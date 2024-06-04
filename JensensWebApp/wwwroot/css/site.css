@@ -14,10 +14,10 @@ html {
 }
 
 body {
-  margin-bottom: 60px;
+  margin-bottom: 30px;
   background-color: #2C2C2C;
   font-family: 'Helvetica Neue', Arial, sans-serif;
-  padding-bottom: 40px;
+  padding-bottom: 25px;
 }
 
 .navbar {
@@ -41,7 +41,7 @@ font-size: 300%;
 background-color: #3E4E50;
 height: 50px;
 margin-top: 10px;
-border-radius: 15px;
+border-radius: 5px;
 }
 .navbar-light .navbar-brand {
 color: #ffd700;
@@ -52,10 +52,15 @@ color: #ffd700 !important;
 text-shadow:  0 0 15px #fff
 }
 
+.text-dark {
+    --bs-text-opacity: 1;
+    color: rgb(240 231 17) !important;
+}
+
 
 .bg-white {
 --bs-bg-opacity: 1;
-background-color: #3E4E50 rgba(var(--bs-white-rgb), var(--bs-bg-opacity)) !important;
+background-color: #3E4E50 !important;
 }
 
 
@@ -65,6 +70,12 @@ background-color: #3E4E50 rgba(var(--bs-white-rgb), var(--bs-bg-opacity)) !impor
   padding: 20px;
   margin-top: 20px;
   margin-bottom: 30px;
+}
+
+.container-fluid {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 footer {  

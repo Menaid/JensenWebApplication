@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "niWpXArNsQjvGJiTm7fl5/nO9/FcOEUH/3u5euomogU=",
+  "Hash": "TickkhfbEG0HUUvLulZYlpCV5jWSfcULScu09QBgSbA=",
   "Source": "JensensWebApp",
   "BasePath": "_content/JensensWebApp",
   "Mode": "Default",
@@ -53,6 +53,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\hanse\\Desktop\\Skola\\Webbapplikationer\\VS\\JensenWebApplication\\JensensWebApp\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\JensensWebApp.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\hanse\\Desktop\\Skola\\Webbapplikationer\\VS\\JensenWebApplication\\JensensWebApp\\wwwroot\\css\\background.jpeg",
+      "SourceId": "JensensWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\hanse\\Desktop\\Skola\\Webbapplikationer\\VS\\JensenWebApplication\\JensensWebApp\\wwwroot\\",
+      "BasePath": "_content/JensensWebApp",
+      "RelativePath": "css/background.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\background.jpeg"
     },
     {
       "Identity": "C:\\Users\\hanse\\Desktop\\Skola\\Webbapplikationer\\VS\\JensenWebApplication\\JensensWebApp\\wwwroot\\css\\site.css",

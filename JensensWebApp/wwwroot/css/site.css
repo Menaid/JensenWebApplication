@@ -28,10 +28,10 @@ border-bottom: 1px solid #2C2C2C !important;
 }
 
 .navbar-brand {
-font-size: 300%;
+font-size: 280%;
   position: absolute;
   left: 50%;
-  top: 50%;
+  top: 40%;
   transform: translate(-50%, -50%);
   display: flex;
   align-items: center;
@@ -65,17 +65,18 @@ background-color: #3E4E50 !important;
 
 
 .container {
-  background-color: #3E4E50;
-  border-radius: 15px;
-  padding: 20px;
-  margin-top: 20px;
-  margin-bottom: 30px;
+    background-color: #3E4E50;
+    border-radius: 15px;
+    padding: 20px 20px 0 20px;
+    margin-top: 20px;
+    margin-bottom: 30px;
 }
 
 .container-fluid {
     width: 100%;
     margin-right: auto;
     margin-left: auto;
+    padding-bottom: 15px;
 }
 
 footer {  
@@ -99,6 +100,12 @@ footer a {
   footer a:hover {
       text-decoration: underline;
   }
+
+.footer[b-he1jpyb09p] {
+    position: absolute;
+    width: 100%;
+    white-space: nowrap;
+}
 
 .mt-4 {
   margin-top: 1.5rem !important;
